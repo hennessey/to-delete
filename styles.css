@@ -1,5 +1,6 @@
 body {
     display: flex;
+    justify-content: center;
 }
 
 header {
@@ -86,6 +87,8 @@ p, li  {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
         transform: rotate(0);
+        width: 100vh;
+        padding: 1rem;
     }
 
     h1 {
